@@ -24,6 +24,9 @@ public class Main {
 			case 1:
 				result = calculadora.getSoma(a, b);
 				break;
+			case 2:
+				result = calculadora.getSubtracao(a, b);
+				break;
 		}
 		System.out.printf("O resultado da operação é: %.2f", result);
 
